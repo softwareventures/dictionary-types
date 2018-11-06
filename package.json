@@ -1,7 +1,7 @@
 {
   "name": "dictionary-types",
   "version": "0.0.0",
-  "description": "Convenient dictionary type definitions for TypeScript",
+  "description": "Convenient type definitions for commonly used dictionary/map style objects in TypeScript",
   "keywords": [
     "typescript",
     "dictionary"

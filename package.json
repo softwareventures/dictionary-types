@@ -10,7 +10,10 @@
     "collections"
   ],
   "author": "Daniel Cassidy <mail@danielcassidy.me.uk>",
+  "homepage": "https://github.com/softwareventures/dictionary-types",
+  "bugs": "https://github.com/softwareventures/dictionary-types/issues",
   "license": "ISC",
+  "repository": "github:softwareventures/dictionary-types",
   "devDependencies": {
     "@softwareventures/tslint-rules": "^0.4.0",
     "tslint": "^5.11.0",

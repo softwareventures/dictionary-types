@@ -1,0 +1,16 @@
+{
+  "name": "dictionary-types",
+  "version": "0.0.0",
+  "description": "Convenient dictionary type definitions for TypeScript",
+  "keywords": [
+    "typescript",
+    "dictionary"
+  ],
+  "author": "Daniel Cassidy <mail@danielcassidy.me.uk>",
+  "license": "ISC",
+  "devDependencies": {
+    "@softwareventures/tslint-rules": "^0.4.0",
+    "tslint": "^5.11.0",
+    "typescript": "^3.1.6"
+  }
+}

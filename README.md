@@ -4,6 +4,22 @@ Convenient type definitions for commonly used dictionary/map style objects
 in TypeScript.
 
 
+# Installation and usage
+
+```bash
+npm install --save dictionary-types
+```
+
+```typescript
+import {
+    Dictionary,
+    ReadonlyDictionary,
+    NumberMap,
+    ReadonlyNumberMap
+} from "dictionary-types";
+```
+
+
 ## Dictionary\<T>
 
 An object containing elements of type T, keyed by strings.

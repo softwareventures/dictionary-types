@@ -1,5 +1,7 @@
 # Dictionary Types
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/softwareventures/dictionary-types.svg)](https://greenkeeper.io/)
+
 Convenient type definitions for commonly used dictionary/map style objects
 in TypeScript.
 

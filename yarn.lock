@@ -2,11 +2,12 @@
 # yarn lockfile v1
 
 
-"@softwareventures/tslint-rules@^0.4.0":
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/@softwareventures/tslint-rules/-/tslint-rules-0.4.0.tgz#898fc78b33341a45295e03dd47d7dac8c0f78abd"
-  integrity sha512-PS6814K5Ge1MDZufoRJqL25xlPjxYoX7W62S//Z3nHAH4ArAmbKGB6SVcInjq3Z0mQ2tvAkH3N9pXUoNo9p6Aw==
+"@softwareventures/tslint-rules@^0.6.2":
+  version "0.6.2"
+  resolved "https://registry.yarnpkg.com/@softwareventures/tslint-rules/-/tslint-rules-0.6.2.tgz#5f3f181f69e34c9f3cd929fee1b50ed8dc478f22"
+  integrity sha512-Y9VWt1mHEFLmYVuH14xAZUNqyytZbo/MFKBsN6r7TL3BuLEWEPfA7EtfWvdH4WhUw3A+0GM5PjLbp6fFn2popg==
   dependencies:
+    tslib "^1.9.3"
     tslint-eslint-rules "^5.4.0"
 
 ansi-regex@^2.0.0:
@@ -260,7 +261,7 @@ tslib@1.9.0:
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.9.0.tgz#e37a86fda8cbbaf23a057f473c9f4dc64e5fc2e8"
   integrity sha512-f/qGG2tUkrISBlQZEjEqoZ3B2+npJjIf04H1wuAv9iA8i04Icp+61KRXxFdha22670NJopsZCIjhC3SnjPRKrQ==
 
-tslib@^1.8.0, tslib@^1.8.1:
+tslib@^1.8.0, tslib@^1.8.1, tslib@^1.9.3:
   version "1.9.3"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.9.3.tgz#d7e4dd79245d85428c4d7e4822a79917954ca286"
   integrity sha512-4krF8scpejhaOgqzBEcGM7yDIEfi0/8+8zDRZhNZZ2kjmHJ4hv3zCbQWxoJGz1iw5U0Jl0nma13xzHXcncMavQ==

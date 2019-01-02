@@ -18,7 +18,7 @@
     "test": "echo No tests yet"
   },
   "devDependencies": {
-    "@softwareventures/tslint-rules": "^0.4.0",
+    "@softwareventures/tslint-rules": "^0.6.2",
     "tslint": "^5.11.0",
     "typescript": "^3.1.6"
   }

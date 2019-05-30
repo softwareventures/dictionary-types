@@ -22,7 +22,7 @@
     "@softwareventures/tslint-rules": "0.6.6",
     "cz-conventional-changelog": "2.1.0",
     "semantic-release": "15.13.12",
-    "tslint": "5.16.0",
+    "tslint": "5.17.0",
     "typescript": "3.5.1"
   },
   "config": {

@@ -19,7 +19,7 @@
     "semantic-release": "semantic-release"
   },
   "devDependencies": {
-    "@softwareventures/tslint-rules": "0.7.0",
+    "@softwareventures/tslint-rules": "0.7.1",
     "cz-conventional-changelog": "2.1.0",
     "semantic-release": "15.13.18",
     "tslint": "5.18.0",

@@ -24,7 +24,7 @@
     "cz-conventional-changelog": "3.0.2",
     "semantic-release": "15.13.31",
     "tslint": "5.20.1",
-    "typescript": "3.7.3"
+    "typescript": "3.7.4"
   },
   "config": {
     "commitizen": {

@@ -15,7 +15,7 @@
   "license": "ISC",
   "repository": "github:softwareventures/dictionary-types",
   "scripts": {
-    "test": "echo No tests yet",
+    "test": "tslint --project .",
     "semantic-release": "semantic-release"
   },
   "sideEffects": false,

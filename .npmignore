@@ -1,6 +1,9 @@
 /.idea
 /tsconfig.json
 /tslint.json
+/yarn.lock
 /.github
+yarn-error.log
+npm-debug.log
 *.ts
 !*.d.ts

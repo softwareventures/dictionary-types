@@ -1,5 +1,5 @@
 /**
- * An object containing elements of type T, keyed by strings.
+ * An object containing elements of type T.
  *
  * ```
  * const scores: Dictionary<number> = {
@@ -11,10 +11,10 @@
  *  scores["Xander"] = 3;
  * ```
  */
-export type Dictionary<TElement> = Record<string, TElement>;
+export type Dictionary<TElement, TKey extends keyof any = string> = Record<TKey, TElement>;
 
 /**
- * A read-only object containing elements of type T, keyed by strings.
+ * A read-only object containing elements of type T.
  *
  * ```typescript
  * function winner(scores: ReadonlyDictionary<number>): string {
@@ -32,14 +32,14 @@ export type Dictionary<TElement> = Record<string, TElement>;
  * }
  * ```
  */
-export type ReadonlyDictionary<TElement> = Readonly<Record<string, TElement>>;
+export type ReadonlyDictionary<TElement, TKey extends keyof any = string> = Readonly<Record<TKey, TElement>>;
 
 /**
  * An object containing elements of type T, keyed by numbers.
  */
-export type NumberMap<T> = Record<number, T>;
+export type NumberMap<T> = Dictionary<T, number>;
 
 /**
  * A read-only object containing elements of type T, keyed by numbers.
  */
-export type ReadonlyNumberMap<T> = Readonly<Record<number, T>>;
+export type ReadonlyNumberMap<T> = ReadonlyDictionary<T, number>;

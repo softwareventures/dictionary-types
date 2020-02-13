@@ -11,9 +11,7 @@
  *  scores["Xander"] = 3;
  * ```
  */
-export interface Dictionary<T> {
-    [key: string]: T;
-}
+export type Dictionary<TElement> = Record<string, TElement>;
 
 /**
  * A read-only object containing elements of type T, keyed by strings.
@@ -34,20 +32,14 @@ export interface Dictionary<T> {
  * }
  * ```
  */
-export interface ReadonlyDictionary<T> {
-    readonly [key: string]: T;
-}
+export type ReadonlyDictionary<TElement> = Readonly<Record<string, TElement>>;
 
 /**
  * An object containing elements of type T, keyed by numbers.
  */
-export interface NumberMap<T> {
-    [key: number]: T;
-}
+export type NumberMap<T> = Record<number, T>;
 
 /**
  * A read-only object containing elements of type T, keyed by numbers.
  */
-export interface ReadonlyNumberMap<T> {
-    readonly [key: number]: T;
-}
+export type ReadonlyNumberMap<T> = Readonly<Record<number, T>>;

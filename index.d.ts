@@ -1,4 +1,15 @@
 /**
+ * Any type that can be used as a key of an object.
+ *
+ * ```
+ * const key1: Key = Symbol();
+ * const key2: Key = 42;
+ * const key3: Key = "Bart";
+ * ```
+ */
+export type Key = keyof any;
+
+/**
  * An object containing elements of type T.
  *
  * ```
@@ -11,7 +22,7 @@
  *  scores["Xander"] = 3;
  * ```
  */
-export type Dictionary<TElement, TKey extends keyof any = string> = Record<TKey, TElement>;
+export type Dictionary<TElement, TKey extends Key = string> = Record<TKey, TElement>;
 
 /**
  * A read-only object containing elements of type T.
@@ -32,7 +43,7 @@ export type Dictionary<TElement, TKey extends keyof any = string> = Record<TKey,
  * }
  * ```
  */
-export type ReadonlyDictionary<TElement, TKey extends keyof any = string> = Readonly<Record<TKey, TElement>>;
+export type ReadonlyDictionary<TElement, TKey extends Key = string> = Readonly<Record<TKey, TElement>>;
 
 /**
  * An object containing elements of type T, keyed by numbers.

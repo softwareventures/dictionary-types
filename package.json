@@ -3,20 +3,20 @@
   "version": "0.0.0-development",
   "description": "Convenient type definitions for commonly used dictionary/map style objects in TypeScript",
   "keywords": [
-    "typescript",
+    "collections",
     "dictionary",
-    "map",
     "hashmap",
-    "collections"
+    "map",
+    "typescript"
   ],
   "author": "Daniel Cassidy <mail@danielcassidy.me.uk>",
   "homepage": "https://github.com/softwareventures/dictionary-types",
   "bugs": "https://github.com/softwareventures/dictionary-types/issues",
-  "license": "ISC",
   "repository": "github:softwareventures/dictionary-types",
+  "license": "ISC",
   "scripts": {
-    "test": "tslint --project .",
-    "semantic-release": "semantic-release"
+    "semantic-release": "semantic-release",
+    "test": "tslint --project ."
   },
   "sideEffects": false,
   "devDependencies": {

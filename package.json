@@ -19,6 +19,9 @@
     "test": "tslint --project ."
   },
   "sideEffects": false,
+  "engines": {
+    "node": "^12 || ^14 || >=16"
+  },
   "devDependencies": {
     "@softwareventures/semantic-release-config": "1.2.0",
     "@softwareventures/tslint-rules": "0.9.2",

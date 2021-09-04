@@ -4,7 +4,7 @@ Convenient type definitions for commonly used dictionary/map style objects
 in TypeScript.
 
 
-# Installation and usage
+## Installation and usage
 
 ```bash
 npm install --save dictionary-types

@@ -3,6 +3,21 @@
 Convenient type definitions for commonly used dictionary/map style objects
 in TypeScript.
 
+## Deprecated
+
+Since TypeScript 2.1, TypeScript has a built-in `Record` type which renders
+this package obsolete. Consider also using an ES6 `Map` instead.
+
+ * Instead of `Dictionary<T>`, use `Record<string, T>` or `Map<string, T>`.
+ * Instead of `Dictionary<T, K>`, use `Record<K, T>` or `Map<K, T>`.
+ * Instead of `ReadonlyDictionary<T>`, use `Readonly<Record<string, T>>`
+   or `ReadonlyMap<string, T>`.
+ * Instead of `ReadonlyDictionary<T, K>`, use `Readonly<Record<K, T>>`
+   or `ReadonlyMap<K, T>`.
+ * Instead of `NumberMap<T>`, use `Record<number, T>` or `Map<number, T>`.
+ * Instead of `ReadonlyNumberMap<T>`, use `Readonly<Record<number, T>>`
+   or `ReadonlyMap<number, T>`.
+
 
 ## Installation and usage
 

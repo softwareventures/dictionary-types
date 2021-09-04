@@ -21,6 +21,8 @@ export type Key = keyof any;
  *
  *  scores["Xander"] = 3;
  * ```
+ *
+ * @deprecated Use `Record<TKey, TElement>` or `Map<TKey, TElement>` instead.
  */
 export type Dictionary<TElement, TKey extends Key = string> = Record<TKey, TElement>;
 
@@ -42,15 +44,21 @@ export type Dictionary<TElement, TKey extends Key = string> = Record<TKey, TElem
  *     return name;
  * }
  * ```
+ *
+ * @deprecated Use `Readonly<Record<TKey, TElement>>` or `ReadonlyMap<TKey, TElement>` instead.
  */
 export type ReadonlyDictionary<TElement, TKey extends Key = string> = Readonly<Record<TKey, TElement>>;
 
 /**
  * An object containing elements of type T, keyed by numbers.
+ *
+ * @deprecated Use `Record<number, T>` or `Map<number, T>` instead.
  */
 export type NumberMap<T> = Dictionary<T, number>;
 
 /**
  * A read-only object containing elements of type T, keyed by numbers.
+ *
+ * @deprecated Use `Readonly<Record<number, T>>` or `ReadonlyMap<number, T>` instead.
  */
 export type ReadonlyNumberMap<T> = ReadonlyDictionary<T, number>;

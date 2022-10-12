@@ -18,7 +18,7 @@
     "fix": "tsc && tslint --fix --project .",
     "lint": "tsc && tslint --project .",
     "semantic-release": "semantic-release",
-    "test": "tslint --project ."
+    "test": "echo No tests yet"
   },
   "sideEffects": false,
   "engines": {
